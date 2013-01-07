@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Faild to login</title>
+</head>
+<body>
+	<h1>Error!</h1>
+	<h2>Wrong username or password!</h2>
+	<form action="/login" method="post">
+		Username: <input type="text" name="username" /><br />
+		Password: <input type="password" name="password" /><br />
+		<input type="submit" value="Login">
+	</form>
+	<form action="/account_creation" method="post">
+		<input type="submit" value="Don't have a account?">
+	</form>
+</body>
+</html>

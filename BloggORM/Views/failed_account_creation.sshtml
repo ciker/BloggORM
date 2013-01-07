@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Faild to create an account</title>
+</head>
+<body>
+	<h1>Error!</h1>
+	<h2>Username taken, please change the username.</h2>
+	<form action="/create_account" method="post">
+		Username: <input type="text" name="username" /><br />
+		Password: <input type="password" name="password" /><br />
+		<input type="submit" value="Create">
+	</form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>successfuly created a new user </title>
+</head>
+<body>
+	<h2>You have successfuly created a new account, press the button below to login!</h2>
+	<form action="/created_an_account" method="post">
+	<input type="submit" value="login">
+	</form>
+</body>
+</html>

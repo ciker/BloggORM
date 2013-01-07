@@ -1,0 +1,14 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Post creation</title>
+</head>
+<body>
+	<form action="/create_post"]" method="post">
+		Title:<input type="text" name="title" /><br />
+		<textarea type="text" name="body">
+		</textarea ><br> 
+		<input type="submit" value="Create">
+	</form>
+</body>
+</html>

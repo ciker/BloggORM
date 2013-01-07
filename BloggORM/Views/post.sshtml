@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>@Model.Post.Title</title>
+</head>
+<body>
+	<h2>welcome @Model.User.Username</h2>
+	<form action="/post_creation"]" method="get">
+		<input type="submit" value="Create a new post">
+	</form>
+	<h1>@Model.Post.Title</h1>
+	<p>@Model.Post.Body</p>
+	@Each.Comment
+	<h3>@Current.Message</h3>
+	<p>@Current.User.Username</p>
+	@EndEach
+</body>
+</html>
